@@ -59,19 +59,3 @@ if __name__ == "__main__":
     import doctest
 
     doctest.testmod()
-
-
-
-#### Can add the following
-'''This feature request proposes adding two functions:
-- `roman_to_int`: Converts a Roman numeral string to an integer.
-- `int_to_roman`: Converts an integer (1-3999) to a Roman numeral.
-
-#### Expected Behavior
-- `roman_to_int("III")` should return 3.
-- `int_to_roman(3)` should return "III".
-
-#### Additional Context
-These functions would provide useful tools for applications involving historical data, educational resources, and unique string formatting. Adding unit tests to verify the accuracy of these conversions is also recommended.
-'''
-
